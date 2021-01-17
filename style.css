@@ -1,0 +1,289 @@
+*{
+
+margin : 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.menu /* #00d271*/ { 
+
+width: 100%;
+text-decoration: none;
+background-color: black; 
+text-align: center; 
+padding: 20px;
+position: fixed; /*Menu fijo al borde superior*/
+top: 0px; /*borde superior menu fijo cero*/
+
+
+}
+
+
+
+.menu a{
+
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+ 
+
+}
+
+.menu a:hover {
+background-color: #00d271;
+color: white;
+margin: 20px;
+padding: 10px;
+
+}
+
+
+
+.navbar-brand {
+
+    position: relative;
+    
+   
+
+}
+
+
+
+/*HOME*/
+
+
+.section-container {
+
+   
+    background-color:black;
+    display: flex;
+    justify-content: center;
+  
+    
+}
+
+.section{
+
+    margin-top: 80px;
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.txt {
+
+   
+    font-family:'Oswald', sans-serif;
+    align-items: center;
+    text-align: center;
+    line-height: 6em;
+    letter-spacing: 1px;
+   
+}
+.txt-1{
+
+    color: white;
+    font-size: 5em;
+}
+
+.txt-2 {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 50px;
+
+}
+
+.button {
+
+    margin: 50px;
+    padding: 20px;
+    background-color:#00d271;
+    border: 1px;
+    border-style: solid white;
+    text-decoration: none;
+    color: white;
+    
+
+
+}
+
+.logo {
+
+    padding: 0px 0px 50px 50px;
+}
+
+
+/*END HOME*/
+
+
+
+
+
+/*START SERVICIOS*/
+
+
+
+.txt-a {
+
+
+    background-color:#00d271;
+    padding-top: 200px;
+    padding-bottom:200px;
+    
+    
+   }
+.txt-3{
+
+    color: white;
+    font-size: 4em;
+    font-family:'Oswald', sans-serif;
+    text-align: center;
+    font-weight: 500; 
+    
+
+}
+
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    font-family:'Oswald', sans-serif;
+
+}
+
+
+    
+/*END SERVICIOS*/
+
+
+ 
+
+/*START CLIENTES*/
+
+.clientes {
+
+    height: 500px;
+    background-color:black ;
+    justify-content: center;
+    display: flex;
+   
+}
+
+.clientes1{
+
+    display: flex;
+    justify-content: space-around;
+    margin: 800px;
+    margin: 50px 0;
+    background-color: black;
+    transform: rotate(360deg);
+    transition: 1s linear all;
+}
+.nosotros {
+
+    height: 500px;
+    background-color: #00d271 ;
+}
+
+.contacto {
+
+    width: 100%;
+    background-color:black ;
+}
+
+/*END CLIENTES*/
+
+
+/*START CONTACTO*/
+
+.form {
+
+    background-size: 100vw 100vw;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+
+.form-1 {
+
+    width: 450px;
+    margin: auto;
+    background: rgba(0.1, 1, 1, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+  
+    border-radius: 7px;
+
+}
+
+.form-text-1 {
+
+
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+.input, textarea {
+
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+
+.textarea {
+
+    min-height: 100px;
+    max-height: 200px;
+}
+
+#boton {
+    background:  #00d271  ;
+    color: white;
+    padding: 20px;
+}
+
+
+#boton:hiver {
+
+    cursor:pointer;
+
+}
+
+
+
+/*END CONTACTO*/
+
+
+/*START SERVICIOS*/
+
+.card-body {
+
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+
+
+
+
+/*END SERVIOS*/
